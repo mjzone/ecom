@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 import { Link } from "react-router-dom";
+import FeaturedProducts from "../components/Products/FeaturedProducts";
 
 const Home = () => {
   return (
@@ -10,8 +11,9 @@ const Home = () => {
           our products
         </Link>
       </Hero>
+      <FeaturedProducts />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
